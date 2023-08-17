@@ -1,12 +1,10 @@
-package by.Yandr2022.springlearn.controller;
+package by.Yandr2022.springlearn.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
-import javax.servlet.http.HttpServletRequest;
 
 @Controller
 @RequestMapping("/first")
@@ -31,24 +29,24 @@ public class FirstController {
                              @RequestParam(value = "b") int b,
                              @RequestParam(value = "action", required = false) String action,
                              Model model) {
-        String res;
+        double result;
         switch (action) {
             case "multiplication":
-                res = (a * b) + "";
+                result = a * b;
                 break;
             case "addition":
-                res = (a + b) + "";
+                result = a + b;
                 break;
             case "subtraction":
-                res = (a - b) + "";
+                result = a - b;
                 break;
             case "division":
-                res = ((double)a / b) + "";
+                result = b == 0 ? 0 : (double) a / b;
                 break;
             default:
-                res = "Wrong action";
+                result = -1.;
         }
-        model.addAttribute("res", res);
+        model.addAttribute("result", Math.round(result * 100) / 100.);
         return "first/calculator";
     }
 
