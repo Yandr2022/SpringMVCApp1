@@ -9,18 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="874f81fb-d2ad-45c4-9930-93204c11216c" name="Changes" comment="learning Spring MVC: Request parameters, Model">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controllers/PeopleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show.html" afterDir="false" />
+    <list default="true" id="874f81fb-d2ad-45c4-9930-93204c11216c" name="Changes" comment="learning Spring MVC: Model Attribute, Forms">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controller/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controllers/FirstController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controller/SecondController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controllers/SecondController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,11 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="NxDevToolsSettings">
+    <node-interpreter value="project" />
+    <nx-package value="" />
+    <nx.json value="" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -78,10 +82,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.75258917",
-    "settings.editor.selected.configurable": "Errors",
+    "project.structure.side.proportion": "0.17931035",
+    "settings.editor.selected.configurable": "profiler.jvm",
     "spring.configuration.checksum": "52232cf60588c7be094e0e7ae9bc9aea",
     "vue.rearranger.settings.migration": "true"
   }
@@ -189,9 +194,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringMVCApp1:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
   </component>
@@ -207,7 +210,11 @@
       <workItem from="1692097783143" duration="228000" />
       <workItem from="1692098021905" duration="12503000" />
       <workItem from="1692165287115" duration="10387000" />
-      <workItem from="1692251890059" duration="5250000" />
+      <workItem from="1692251890059" duration="5605000" />
+      <workItem from="1692348628518" duration="1969000" />
+      <workItem from="1692597041416" duration="1383000" />
+      <workItem from="1692690281483" duration="8216000" />
+      <workItem from="1692769946371" duration="7270000" />
     </task>
     <task id="LOCAL-00001" summary="learning Spring MVC">
       <created>1692109128076</created>
@@ -230,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692185051227</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="learning Spring MVC: Model Attribute, Forms">
+      <created>1692284074075</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692284074075</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +265,8 @@
     <MESSAGE value="learning Spring MVC" />
     <MESSAGE value="learning Spring MVC: Controllers" />
     <MESSAGE value="learning Spring MVC: Request parameters, Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning Spring MVC: Request parameters, Model" />
+    <MESSAGE value="learning Spring MVC: Model Attribute, Forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning Spring MVC: Model Attribute, Forms" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

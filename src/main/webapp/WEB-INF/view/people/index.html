@@ -5,9 +5,12 @@
     <title>All people</title>
 </head>
 <body>
+<h3 th:text="${headerMsg}">VALUE</h3>
 <div th:each="person : ${people}">
     <a th:href="@{/people/{id}(id=${person.getId()})}" th:text="${person.getName()}">user</a>
 </div>
-
+<br>
+<hr>
+<a href="/people/new"
 </body>
 </html>
