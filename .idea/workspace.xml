@@ -9,18 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="874f81fb-d2ad-45c4-9930-93204c11216c" name="Changes" comment="learning Spring MVC: Request parameters, Model">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="874f81fb-d2ad-45c4-9930-93204c11216c" name="Changes" comment="learning Spring MVC: form validate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +76,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;52232cf60588c7be094e0e7ae9bc9aea&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -208,6 +205,7 @@
       <workItem from="1692098021905" duration="12503000" />
       <workItem from="1692165287115" duration="10387000" />
       <workItem from="1692251890059" duration="5250000" />
+      <workItem from="1692856528333" duration="3074000" />
     </task>
     <task id="LOCAL-00001" summary="learning Spring MVC">
       <created>1692109128076</created>
@@ -230,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692185051227</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="learning Spring MVC: form validate">
+      <created>1692799296321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692799296321</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +256,8 @@
     <MESSAGE value="learning Spring MVC" />
     <MESSAGE value="learning Spring MVC: Controllers" />
     <MESSAGE value="learning Spring MVC: Request parameters, Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning Spring MVC: Request parameters, Model" />
+    <MESSAGE value="learning Spring MVC: form validate" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning Spring MVC: form validate" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
