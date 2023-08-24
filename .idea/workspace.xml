@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="874f81fb-d2ad-45c4-9930-93204c11216c" name="Changes" comment="learning Spring MVC: form validate">
+    <list default="true" id="874f81fb-d2ad-45c4-9930-93204c11216c" name="Changes" comment="learning Spring MVC: connecting with DB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +204,7 @@
       <workItem from="1692098021905" duration="12503000" />
       <workItem from="1692165287115" duration="10387000" />
       <workItem from="1692251890059" duration="5250000" />
-      <workItem from="1692856528333" duration="3074000" />
+      <workItem from="1692856528333" duration="6925000" />
     </task>
     <task id="LOCAL-00001" summary="learning Spring MVC">
       <created>1692109128076</created>
@@ -235,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692799296321</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="learning Spring MVC: connecting with DB">
+      <created>1692862278209</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692862278209</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +263,8 @@
     <MESSAGE value="learning Spring MVC: Controllers" />
     <MESSAGE value="learning Spring MVC: Request parameters, Model" />
     <MESSAGE value="learning Spring MVC: form validate" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning Spring MVC: form validate" />
+    <MESSAGE value="learning Spring MVC: connecting with DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning Spring MVC: connecting with DB" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

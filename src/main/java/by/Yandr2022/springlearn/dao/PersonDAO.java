@@ -25,7 +25,7 @@ public class PersonDAO {
         }
 
         try {
-            connection = DriverManager.getConnection(URL,USERNAME,PASSWORD);
+            connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -37,9 +37,9 @@ public class PersonDAO {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT * FROM person");
 
-            while (resultSet.next()){
-                Person person = new Person(resultSet.getInt("id"),resultSet.getString("name")
-                        ,resultSet.getInt("age"),resultSet.getString("email"));
+            while (resultSet.next()) {
+                Person person = new Person(resultSet.getInt("id"), resultSet.getString("name")
+                        , resultSet.getInt("age"), resultSet.getString("email"));
                 people.add(person);
             }
         } catch (SQLException e) {
@@ -49,32 +49,61 @@ public class PersonDAO {
     }
 
     public Person show(int id) {
-//        return people.stream().filter(person -> person.getId() == id).findAny().orElse(null);
-        return null;
+        Person person = null;
+        try {
+            PreparedStatement statement
+                    = connection.prepareStatement("SELECT * from first_db.person where person.id=?");
+            statement.setInt(1, id);
+            ResultSet set = statement.executeQuery();
+            set.next();
+            person = new Person(set.getInt("id"), set.getString("name")
+                    , set.getInt("age"), set.getString("email"));
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return person;
     }
 
     public void save(Person person) {
 //        person.setId(++PEOPLE_COUNT);
 //        people.add(person);
         try {
-            Statement statement = connection.createStatement();
-            String sql = "INSERT INTO first_db.person values("
-                    + 8 + ", '"+ person.getName() + "', " + person.getAge()
-                    + ", '" + person.getEmail()+ "')";
-            statement.executeUpdate(sql);
+            PreparedStatement statement
+                    = connection.prepareStatement("INSERT INTO first_db.person values(1, ?, ?, ?)");
+            statement.setString(1, person.getName());
+            statement.setInt(2, person.getAge());
+            statement.setString(3, person.getEmail());
+            statement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
 
     public void update(int id, Person updatedPerson) {
-//        Person personToBeUpdated = show(id);
-//        personToBeUpdated.setName(updatedPerson.getName());
-//        personToBeUpdated.setAge(updatedPerson.getAge());
-//        personToBeUpdated.setEmail(updatedPerson.getEmail());
+        try {
+            PreparedStatement statement
+                    = connection.prepareStatement("UPDATE first_db.person SET name=?, age=?, email=? WHERE id=?");
+            statement.setString(1, updatedPerson.getName());
+            statement.setInt(2, updatedPerson.getAge());
+            statement.setString(3, updatedPerson.getEmail());
+            statement.setInt(4, updatedPerson.getId());
+            statement.executeUpdate();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     public void delete(int id) {
-//        people.removeIf(p -> p.getId() == id);
+        try {
+            PreparedStatement statement
+                    = connection.prepareStatement("DELETE FROM first_db.person WHERE id=?");
+            statement.setInt(1, id);
+            statement.executeUpdate();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }
