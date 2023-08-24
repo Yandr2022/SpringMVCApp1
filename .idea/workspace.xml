@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="874f81fb-d2ad-45c4-9930-93204c11216c" name="Changes" comment="learning Spring MVC: connecting with DB">
+    <list default="true" id="874f81fb-d2ad-45c4-9930-93204c11216c" name="Changes" comment="learning Spring MVC: refactor using JDBC API">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +26,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -204,7 +207,7 @@
       <workItem from="1692098021905" duration="12503000" />
       <workItem from="1692165287115" duration="10387000" />
       <workItem from="1692251890059" duration="5250000" />
-      <workItem from="1692856528333" duration="6925000" />
+      <workItem from="1692856528333" duration="12108000" />
     </task>
     <task id="LOCAL-00001" summary="learning Spring MVC">
       <created>1692109128076</created>
@@ -241,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692862278209</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="learning Spring MVC: refactor using JDBC API">
+      <created>1692877144157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692877144157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +274,8 @@
     <MESSAGE value="learning Spring MVC: Request parameters, Model" />
     <MESSAGE value="learning Spring MVC: form validate" />
     <MESSAGE value="learning Spring MVC: connecting with DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning Spring MVC: connecting with DB" />
+    <MESSAGE value="learning Spring MVC: refactor using JDBC API" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning Spring MVC: refactor using JDBC API" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
