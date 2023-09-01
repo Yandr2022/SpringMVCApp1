@@ -9,16 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="874f81fb-d2ad-45c4-9930-93204c11216c" name="Changes" comment="learning Spring MVC: batch Update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/util/PersonValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+    <list default="true" id="874f81fb-d2ad-45c4-9930-93204c11216c" name="Changes" comment="learning Spring MVC: Spring Validator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/controllers/PeopleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/dao/PersonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/util/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/util/PersonValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +213,8 @@
       <workItem from="1693218943179" duration="2259000" />
       <workItem from="1693300472042" duration="2642000" />
       <workItem from="1693383130121" duration="9254000" />
-      <workItem from="1693477674006" duration="4905000" />
+      <workItem from="1693477674006" duration="5323000" />
+      <workItem from="1693547277286" duration="2310000" />
     </task>
     <task id="LOCAL-00001" summary="learning Spring MVC">
       <created>1692109128076</created>
@@ -283,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692960053733</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="learning Spring MVC: Spring Validator">
+      <created>1693493168933</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693493168934</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +313,8 @@
     <MESSAGE value="learning Spring MVC: refactor using JDBC Template" />
     <MESSAGE value="learning Spring MVC: exporting database settings to a file.properties" />
     <MESSAGE value="learning Spring MVC: batch Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning Spring MVC: batch Update" />
+    <MESSAGE value="learning Spring MVC: Spring Validator" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning Spring MVC: Spring Validator" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
